@@ -40,7 +40,7 @@ export default function App() {
         onChangeText={setAnoNascimento}
       />
 
-      <Button title="Verificar" onPress={calcularIdade} color="#4CAF50" />
+      <Button title="Verificar" onPress={calcularIdade} color="#af4c4c" />
 
       <Text style={styles.resultado}>{resultado}</Text>
     </View>
